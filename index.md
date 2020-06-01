@@ -15,7 +15,6 @@ Hungary and stuff
 ### Personal Projects
 
 Music stuff, elevenwarriors stuff
-[Link](url) and ![Image](src)
 [Ohio State Statistics Project](https://ohio-state-statistics.shinyapps.io/Ohio-State-Stats/)
 
 ### Markdown
