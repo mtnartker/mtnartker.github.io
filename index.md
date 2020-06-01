@@ -1,8 +1,21 @@
-## Jake Anderson
+![Image](src)
 
-Incoming summer analyst at JPMorgan Chase Co. and rising senior at The Ohio State University majoring in statistics
+## About Me
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I grew up just north of Dayton, Ohio, and enrolled in Ohio State in 2017. In Columbus, I have been involved in a number of exciting organizations and have been blessed with tremendous opportunities. 
+
+### Professional Experience and Organizations
+
+ElevenWarriors.com, Matco, what I'm doing now and other stuff
+
+### Other Experiences
+
+Hungary and stuff
+
+### Personal Projects
+
+Music stuff, elevenwarriors stuff
+[Link](url) and ![Image](src)
 
 ### Markdown
 
@@ -23,15 +36,8 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jake22anderson/jake22anderson.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
