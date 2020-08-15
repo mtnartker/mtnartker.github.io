@@ -1,3 +1,3 @@
 # jake22anderson.github.io
 
-Personal page
+Welcome to my personal page! 
