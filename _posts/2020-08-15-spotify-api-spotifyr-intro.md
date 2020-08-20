@@ -10,7 +10,7 @@ When looking at Spotify’s API and the package SpotifyR, it is immediately easy
 
 After playing around with the data for a little bit, I wanted to show my friends my listening habits in an aesthetic fashion. Simple tables are fine, but it was not a pretty picture to look at or easily shared to social media. Luckily, SpotifyR includes a link to each artists’/songs’ cover art. The images are artist/album-specific, allowing for identification of each artist in my top artists and the album affiliation of each song in my top songs. Each image itself is interesting, of course, but a better, more concise picture of my listening habits would include _all_ of my top 50 artists/songs. This motivation led me to create a collage of the cover art of each of my top 49 (perfect 7x7 square!) in a square collage. The result: a beautiful summary of my favorite artists in an easy-to-understand, easy-to-share image. 
 
-<img src="https://user-images.githubusercontent.com/37127146/90769358-1871db80-e2be-11ea-8746-4d29f5a79eff.png" alt="Artist Cover Art Collage" width="500"/>
+<img src="https://user-images.githubusercontent.com/37127146/90769358-1871db80-e2be-11ea-8746-4d29f5a79eff.png" alt="Artist Cover Art Collage" width="1000"/>
 
 This image is a summary of my top 49 artists in April 2020. As you can see, The Weeknd was my top artist throughout that time, followed by Tame Impala, Lil Uzi Vert, and Caribou, each of whom had released an album in the previous two months. 
 
