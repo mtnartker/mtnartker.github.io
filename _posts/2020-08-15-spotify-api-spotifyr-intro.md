@@ -22,7 +22,7 @@ To begin, I prepared my playlist’s data with `spotifyR::get_playlist_audio_fea
 
 Next, I wanted to visualize my clusters using principal component analysis, a dimensionality reduction technique. Principal component analysis, or PCA, is (describe PCA). By performing PCA on our data, we now have seven variables, with the top two variables accounting for over 50% of the data. The resulting plot of the data, as labeled by the song titles, can be seen along with the eigenvectors of the original variables. Unfortunately, we can not easily see the clusters in this plot, an issue that the `factoextra` package from R easily solves. 
 
-Image
+<img src="https://user-images.githubusercontent.com/37127146/90986905-791a4600-e554-11ea-97a2-52190467e14c.png" alt="PCA and KMeans Plots" width="1000"/>
 
 As you can see, the two plots are essentially the same; the axes and relative location of each song, with the plot on the right easily showing the clusters. 
 
@@ -30,18 +30,16 @@ While that looks pretty good, let’s see if we can do any better. If you recall
 
 To start, it is important to know that there are three main methods of fine-tuning KMeans models: the elbow method, the silhouette method, and the gap statistic. The elbow method finds the number of clusters that has the minimum total sum of squares within each cluster. The silhouette attempts to determine how well each object lays within a cluster, finding the average residual distance from the center for each cluster. The gap statistic method compares intracluster variation to null distribution clustering, searching for the maximum “improvement” the additional cluster provided the model. Each plot can be seen below. 
 
-Image
+<img src="https://user-images.githubusercontent.com/37127146/90986944-e3cb8180-e554-11ea-80b3-bfee0db96e3c.png" alt="Tuning Plots" width="1000"/>
 
 According to our plot, the elbow method continuously decreases, meaning it suggests more clusters than less. The silhouette method has its maximum value at five clusters. The gap statistic method, on the other hand, suggests that just one cluster is optimal, suggesting that the distribution is no better than a null distribution. Because the silhouette method suggests five clusters and the elbow method supports it as a good selection, we will continue with five centers in our method. 
 
 After rerunning the model, we get a new plot with new clusters: 
 
-image
+<img src="https://user-images.githubusercontent.com/37127146/90986969-1bd2c480-e555-11ea-929a-c7bb0477c6d2.png" alt="KMeans Plots" width="1000"/>
 
 In cluster one in the top right, we have songs from iconic artists such as Michael Jackson and The Isley Brothers to more current, lowkey artists such as Yves Tumour and KAYTRANADA. To the second cluster, it is a number of recent songs with a notable instrumental uptick in its song, giving this cluster the highest mean acousticness and mean instrumentalness of our five clusters. The third cluster contains the most danceable songs of any of the five clusters, including songs from Bobby Caldwell to Clairo. In cluster four, the four songs are by artists more known for their production and instrumentals than their lyrics, containing the highest mean valence and mean energy of any cluster. The final cluster has the highest mean speechiness along with the lowest mean valence of the five groups, containing odes to failed relationships and the beginnings of new ones. 
 
 As you can see in the above plot, two of our clusters overlap. While this seems incorrect, it is important to remember that the current plot is only using two of our seven variables created during the dimensionality reduction from PCA. These two variables account for 54% of the data, but 46% of the data is unplotted. The KMeans analysis of elán vital’s resulted in within cluster sum of squares of 0.43 for cluster one, 0.56 for cluster two, 0.66 for cluster three, 0.36 for cluster four, and 0.44 for cluster five with 69.4% of the variation in the data explained by the clusters.
 
 Overall, these strong measures show that even though elán vital has a consistent “mood” throughout the playlist, there are still specific groupings within it. Finish conclusion
-
-
