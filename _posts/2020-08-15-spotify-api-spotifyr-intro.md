@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My First Work with Spotify's API and SpotifyR"
+title: "Initial Introduction to SpotifyR with KMeans"
 date: 2020-08-15
 ---
 
